@@ -5,6 +5,7 @@ Build an AI-Powered Fullstack Next.js App, v3
 * build out and deploy an API
 * setup continuos deployment with CI
 * host the app with a custom domain
+* write tests for the server components
 
 Tech stack:
 - React, Node.js, Typescript, Postgres.
@@ -12,7 +13,7 @@ Tech stack:
 https://github.com/Hendrixer/fullstack-ai-nextjs
 
 - CRUD
-- auto-save
+- auto-save (react-autosave)
 - authentication
 
 Start:
@@ -40,3 +41,12 @@ pscale connect mood dev --port 3309
  npm install prisma --save-dev
  npx prisma init
  npx prisma db push
+ npx prisma studio
+
+https://github.com/hwchase17/langchainjs
+https://js.langchain.com/docs/
+ npm i langchain
+
+
+
+
